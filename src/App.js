@@ -1,17 +1,29 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Nav from "./components/nav/index";
-import Header from "./components/header/index";
+import Hero from "./components/Hero/index";
+import About from "./components/About/index";
+import Skill from "./components/Skill/index";
+import Education from "./components/Education/index";
+import Work from "./components/Work/index";
+import Experience from "./components/Experience/index";
+import Contact from "./components/Contact/index";
 import { SocialIcon } from "react-social-icons";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
-import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (
-    <div className="App body ">
+    <div className="App body container">
       <Nav />
-      <Header />
+      <Hero />
+      <About />
+      <Skill />
+      <Education />
+      <Work />
+      <Experience />
+      <Contact />
+      {/* <About /> */}
     </div>
   );
 }

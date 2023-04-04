@@ -1,0 +1,37 @@
+.container {
+  background-color: rgb(34, 37, 41);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.top {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  h1 {
+    // color: rgb(34, 37, 41);
+    color: rgb(41, 45, 49);
+    font-size: calc(1rem + 7.4vw);
+    // font-size: 7.4vw;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  p {
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+    z-index: 1;
+    line-height: 3;
+    // top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    span {
+      padding: 0.3rem;
+      border-bottom: 2px solid #007fff;
+    }
+  }
+}

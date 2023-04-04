@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import style from "./style.module.css";
+import Arrow from "../arrow/arrow-bottom";
+import Bottom from "./Bottom";
+import style from "./style.module.scss";
+import Top from "./top";
 
-export default class Skill extends Component {
+export default class Skills extends Component {
   render() {
     return (
       <div id="skill" className={style.container}>
-        Skill
+        <Top />
+        <Bottom />
+        <Arrow />
       </div>
     );
   }

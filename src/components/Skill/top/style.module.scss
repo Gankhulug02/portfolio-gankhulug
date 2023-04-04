@@ -1,0 +1,19 @@
+.container {
+  //   position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  //   background-color: rgb(3, 119, 221);
+  height: 20%;
+  h1 {
+    color: rgb(41, 45, 49);
+    font-size: calc(1rem + 7.4vw);
+  }
+  p {
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+    z-index: 1;
+    line-height: 3;
+  }
+}
